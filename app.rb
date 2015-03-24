@@ -5,7 +5,6 @@ class IdeaBoxApp < Sinatra::Base
   get '/' do
     "Hello, World!"
   end
-end
 
-#   run! if app_file == $0
-# end
+  run! if app_file == $0
+end
